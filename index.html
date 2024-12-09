@@ -41,7 +41,7 @@
 
   .progress-container {
     width: 100%;
-    background-color: #e5e7eb; /* Light gray */
+    background-color: #e5e7eb; 
     border-radius: 9999px;
     overflow: hidden;
     position: relative;
@@ -49,7 +49,7 @@
 
   .progress-bar {
     height: 8px;
-    background-color: #f04e3c; /* Your brand color */
+    background-color: #f04e3c;
     border-radius: 9999px;
     animation: fill-bar 2s ease-in-out forwards;
   }
@@ -119,13 +119,13 @@
         <li><a href="#" class="block text-white hover:text-[#f04e3c]">Home</a></li>
         <li><a href="#about" class="block text-white hover:text-[#f04e3c]">About</a></li>
         <li><a href="#education" class="block text-white hover:text-[#f04e3c]">Education</a></li>
-        <li><a href="#projects" class="block text-white hover:text-[#170f0e]">Projects</a></li>
+        <li><a href="#projects" class="block text-white hover:text-[#f04e3c]">Projects</a></li>
         <li><a href="#contacts" class="block text-white hover:text-[#f04e3c]">Contact</a></li>
       </ul>
     </nav>
   </header>
   <section class="flex items-center justify-center px-8 py-32 md:px-16 bg-gradient-to-br from-gray-800 via-black to-gray-900 gap-16 mt-16">
-    <!-- Left Content -->
+
     <div class="max-w-lg text-center md:text-left animate-slide-in">
       <p
         class="text-[#f04e3c] uppercase tracking-wide text-2xl font-semibold mb-2 ml-4"
@@ -140,7 +140,6 @@
       </p>
     </div>
   
-    <!-- Right Image -->
     <div class="hidden md:block">
       <div class="relative shadow-lg rounded-full overflow-hidden w-[400px] h-[400px]">
         <img
@@ -158,13 +157,13 @@
   <section id="about" class="bg-gray-100 text-black px-8 py-16">
     <div class="max-w-5xl mx-auto">
       <div class="flex flex-wrap md:flex-nowrap gap-8 items-center">
-        <!-- Left Image -->
+
         <div class="w-full md:w-1/2 flex justify-center">
           <img src="img/profile.png" alt="About" class="rounded-full shadow-lg">
         </div>
-        <!-- Right Content -->
+  
         <div class="w-full md:w-1/2 px-6 mt-8 md:mt-0">
-         <!-- Tab Buttons -->
+    
           <div class="flex justify-center space-x-4 mb-6">
             <button onclick="showTab('about-me')" data-tab="about-me" class="tab-button w-32 px-4 py-2 bg-[#F04E3C] text-white rounded-md focus:outline-none">
               About Me
@@ -176,14 +175,14 @@
               Roles
             </button>
           </div>
-          <!-- About Me Content -->
+   
           <div id="about-me" class="tab-content">
             <h2 class="text-3xl font-bold mb-4">About me</h2>
             <p class="text-gray-700 mb-6 leading-relaxed">
               I am a 22 years old student taking BSME at Visayas State University. My interest lies in filmaking, sketching, reading books, and understanding thermodynamics relations. 
             </p>
           </div>
-          <!-- Skills Content -->
+      
           <div id="skills" class="tab-content hidden">
             <h2 class="text-3xl font-bold mb-4">Skills</h2>
             <div class="mb-4">
@@ -206,7 +205,7 @@
             </div>
             
           </div>
-          <!-- Roles Content -->
+     
           <div id="roles" class="tab-content hidden">
             <h2 class="text-3xl font-bold mb-4">Roles</h2>
             <ul class="list-disc pl-6 space-y-2">
@@ -231,13 +230,13 @@
   </section>
 
 
-   <!-- Education Section -->
+
   <section id="education" class="relative text-white px-8 py-16 bg-cover bg-center" style="background-image: url('img/bg1.jpg');">
   
     <div class="relative max-w-5xl mx-auto">
       <h2 class="text-5xl font-bold mb-12 text-center text-[#f04e3c]">EDUCATION</h2>
       <div class="space-y-12">
-        <!-- Elementary -->
+   
         <div class="relative bg-gradient-to-br from-gray-600 via-gray-500 to-gray-500 rounded-lg shadow-lg overflow-hidden">
           <div class="p-8">
             <h3 class="text-2xl font-bold uppercase mb-4 text-[#f04e3c]">Elementary</h3>
@@ -247,7 +246,7 @@
           </div>
         </div>
   
-        <!-- Junior High School -->
+
         <div class="relative bg-gradient-to-br from-gray-600 via-gray-500 to-gray-500 rounded-lg shadow-lg overflow-hidden">
           <div class="p-8">
             <h3 class="text-2xl font-bold uppercase mb-4 text-[#f04e3c]">Junior High School</h3>
@@ -257,7 +256,7 @@
           </div>
         </div>
   
-        <!-- Senior High School -->
+   
         <div class="relative bg-gradient-to-br from-gray-600 via-gray-500 to-gray-500 rounded-lg shadow-lg overflow-hidden">
           <div class="p-8">
             <h3 class="text-2xl font-bold uppercase mb-4 text-[#f04e3c]">Senior High School</h3>
@@ -266,8 +265,7 @@
             </p>
           </div>
         </div>
-  
-        <!-- College -->
+ 
         <div class="relative bg-gradient-to-br from-gray-600 via-gray-500 to-gray-500 rounded-lg shadow-lg overflow-hidden">
           <div class="p-8">
             <h3 class="text-2xl font-bold uppercase mb-4 text-[#f04e3c]">College</h3>
@@ -280,7 +278,7 @@
     </div>
   </section>
   
-  <!-- Project Section -->
+
   <section id="projects" class="px-8 py-32 md:px-16 bg-gradient-to-br from-gray-800 via-black to-gray-900 gap-16 mt-0">
     <div class="max-w-7xl mx-auto text-white">
       <h2 class="text-5xl font-bold mb-20 text-center text-[#f04e3c]">PROJECTS</h2>
@@ -332,7 +330,7 @@
     </div>
   </section>
   
-  <!-- Contacts section -->
+
   <section id="contacts" class="px-8 py-16 bg-gradient-to-br from-gray-800 via-black to-gray-900 text-white">
     <div class="max-w-7xl mx-auto text-center">
       <h2 class="text-4xl font-bold mb-8 text-[#f04e3c]">Contact Me</h2>
@@ -341,20 +339,19 @@
       </p>
   
       
-        <!-- Social Media Links -->
+       
         <div class="flex flex-col justify-center items-center space-y-6">
           <p class="text-lg font-semibold text-[#f04e3c]">Connect with Me:</p>
           <div class="flex space-x-6">
-            <!-- Facebook -->
+            
             <a href="https://www.facebook.com/joyce.delacruz.33483" target="_blank" rel="noopener noreferrer">
               <img src="img/facebook.png" alt="Facebook" class="w-12 h-12 hover:scale-110 transform transition duration-300" />
             </a>
-            <!-- Instagram -->
+         
             <a href="https://www.instagram.com/itsdlcjoys/" target="_blank" rel="noopener noreferrer">
               <img src="img/instagram.png" alt="Instagram" class="w-12 h-12 hover:scale-110 transform transition duration-300" />
             </a>
 
-            <!-- Gmail -->
             <a href="mailto:vsulhsjoyceserato@gmail.com" target="_blank" rel="noopener noreferrer">
               <img src="img/gmail.png" alt="Gmail" class="w-12 h-12 hover:scale-110 transform transition duration-300" />
             </a>
@@ -367,8 +364,7 @@
   </section>
   
   
-  
-  <!-- Footer -->
+ 
   <footer class="text-center py-4 text-gray-500 text-sm border-t border-gray-700">
     <p>&copy; 2024 Joyce dela Cruz Portfolio. All rights reserved.</p>
   </footer>
